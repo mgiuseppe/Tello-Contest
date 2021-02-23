@@ -12,6 +12,10 @@ This repo contains a bunch of samples
 
 Move Tello using DJITelloPy. 
 
+- **Sport**
+
+Get commands from keyboard 
+
 ## Environmental configuration
 
 1. Create a conda environment (optional)
@@ -23,7 +27,8 @@ Move Tello using DJITelloPy.
     ```
     > pip install -r requirements.txt
     ```
-3. Run the samples
+3. Create inbound firewall rules for UDP ports 8890 (state) and 11111 (video)
+4. Run the samples
     ```
     > cd First_Steps
     > python main.py
